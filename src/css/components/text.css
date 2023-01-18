@@ -1,0 +1,64 @@
+.regular-text{
+    font-family: 'Roboto regular';
+}
+.bold-text{
+    font-family: 'Roboto bold';
+}
+.light-text{
+    font-family: 'Roboto light';
+}
+.thin-text{
+    font-family: 'Roboto thin';
+}
+.small-text{
+    font-size: var(--small-text);
+}
+.medium-text{
+    font-size: var(--medium-text);
+}
+.large-text{
+    font-size: var(--large-text);
+}
+.big-text{
+    font-size: var(--big-text);
+}
+.pink-text{
+    color: var(--sweat-pink);
+}
+.brown-text{
+    color: var(--fun-brown);
+}
+.green-text{
+    color: var(--cute-green);
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.white-text{
+    color: var(--regular-white);
+}
+.dark-text{
+    color: var(--dark-black);
+}
+.black-text{
+    color: var(--lazy-grey);
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.crossed-text{
+    text-decoration: line-through;
+}
+.home-title{
+    font-family: 'Batcheart';
+    font-size: 4rem;
+    letter-spacing: 4px;
+    line-height: 6rem;
+    text-shadow: var(--bottom-shadow);
+}
+.ls-medium{
+    letter-spacing: 1px;
+}
+.center{
+    text-align: center;
+}
