@@ -5,6 +5,9 @@ import Profile from '../pages/users/Profile'
 import Login from '../pages/users/Login'
 import Logout from '../pages/users/Logout'
 import Register from '../pages/users/Register'
+import Header from '../layers/Header'
+import Footer from '../layers/Footer'
+import Menu from '../pages/menu/Menu'
 import { AnimatePresence } from 'framer-motion'
 
 
@@ -13,8 +16,10 @@ const AnimatedRoutes = () => {
 
     return (
         <AnimatePresence>
+            <Header />
             <Routes location={location} key={location.pathname}>
                 <Route exact path="/" element={<Home />} />
+                <Route exact path="/menu" element={<Menu />} />
                 <Route exact path="/commande" element="" />
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/logout" element={<Logout />} />
@@ -25,6 +30,7 @@ const AnimatedRoutes = () => {
                 <Route exact path="/administrateur/clients" element="" />
                 <Route exact path="/administrateur/comandes" element="" />
             </Routes>
+            <Footer />
         </AnimatePresence>
     )
 }

@@ -1,9 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
-import Header from './layers/Header'
-import Footer from './layers/Footer'
 import AnimatedRoutes from './core/AnimatedRoutes'
-
+import './css/main.css'
 
 
 const App = () => {
@@ -17,9 +15,7 @@ const App = () => {
     return (
         <>
             <Router>
-                <Header />
                 <AnimatedRoutes />
-                <Footer />
             </Router>
         </>
     )
