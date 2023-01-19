@@ -298,7 +298,7 @@
     width: 25vh;
 }
 .img-medium{
-    width: 30vh;
+    width: 40vh;
 }
 .img-large{
     width: 80vh;
@@ -316,11 +316,11 @@
     width: 100%;
     padding: 55px 0px;
 }
-.abs-medium{
+.abs-medium {
     position: absolute;
-    bottom: 30px;
+    bottom: -10px;
     z-index: 99;
-}
+  }
 /* Shapes */
 .contact-shape{
     width: 100%;
@@ -344,8 +344,8 @@
     overflow: hidden;
 }
 .circle-small{
-    width: 20vh;
-    height: 20vh;
+    width: 18vh;
+    height: 18vh;
     border-radius: 50%;
     -webkit-box-shadow: var(--bottom-shadow);
             box-shadow: var(--bottom-shadow);
