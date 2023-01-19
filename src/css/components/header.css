@@ -35,10 +35,10 @@
     isolation:isolate;
 }
 .cls-2{
-    fill:#22a2b3;
+    fill:var(--fun-blue);
 }
 .cls-3{
-    fill:#f65d19;
+    fill:var(--cream-orange);
 }
 /* End header logo SVG */
 .nav-list{

@@ -22,23 +22,20 @@
 .big-text{
     font-size: var(--big-text);
 }
-.pink-text{
-    color: var(--sweat-pink);
-}
-.brown-text{
-    color: var(--fun-brown);
-}
-.green-text{
-    color: var(--cute-green);
-    -webkit-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-}
 .white-text{
     color: var(--regular-white);
 }
 .dark-text{
     color: var(--dark-black);
+}
+.red-text{
+    color: var(--danger-red);
+}
+.sand-text{
+    color: var(--weezy-sand);
+}
+.violet-text{
+    color: var(--sweat-violet);
 }
 .black-text{
     color: var(--lazy-grey);

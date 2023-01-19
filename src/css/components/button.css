@@ -49,13 +49,33 @@
 }
 
 .btn-cream{
-    background-color: var(--fun-brown);
+    background-color: var(--weezy-sand);
     color: var(--regular-white);
     transition: all .2s ease-out;
 }
 .btn-cream:hover,
 .btn-cream:focus{
-    background-color: var(--lazy-grey);
+    background-color: var(--sweat-violet);
+    transition: all .2s ease-in-out;
+}
+.btn-swift{
+    background-color: var(--sweat-violet);
+    color: var(--regular-white);
+    transition: all .2s ease-out;
+}
+.btn-swift:hover,
+.btn-swift:focus{
+    background-color: var(--fun-blue);
+    transition: all .2s ease-in-out;
+}
+.btn-danger{
+    background-color: var(--danger-red);
+    color: var(--regular-white);
+    transition: all .2s ease-out;
+}
+.btn-danger:hover,
+.btn-danger:focus{
+    background-color: var(--cream-orange);
     transition: all .2s ease-in-out;
 }
 .basic-link{
