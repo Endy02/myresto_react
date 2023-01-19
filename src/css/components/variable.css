@@ -1,11 +1,14 @@
 :root{
     --cute-green: #A0CC83;
-    --weezy-sand: #F6AA4D;
-    --cream-orange: #f65d19;
+    --weezy-sand: #F2D06D;
+    --cream-orange: #F2AF5E;
+    --danger-red: #D86247;
+    --sweat-violet: #9D82D8;
     --shade-cream-orange: linear-gradient(to right top, #f65d19, #e35618, #d14f17, #bf4815, #ad4114);
-    --fun-blue: #22a2b3;
+    --fun-blue: #6AD8CD;
     --regular-white: #ffffff;
     --dark-grey: #7E7C7C;
+    --lazy-grey: #535252;
     --bottom-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     --top-shadow: 0 -3px 6px 0 rgba(0,0,0,0.16);
     --big-text: 1.538rem;
