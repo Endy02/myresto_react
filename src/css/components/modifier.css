@@ -195,6 +195,15 @@
 .bg-green{
     background-color: var(--cute-green);
 }
+.bg-violet{
+    background-color: var(--sweat-violet);
+}
+.bg-sand{
+    background-color: var(--weezy-sand);
+}
+.bg-danger{
+    background-color: var(--danger-red);
+}
 .bg-black{
     background-color: var(--dark-black);
 }
@@ -209,6 +218,9 @@
 }
 .bg-icon-black{
     fill: var(--dark-black);
+}
+.bg-icon-white{
+    fill: var(--regular-white);
 }
 .bg-icon-shade{
     fill: var(--dark-white);
@@ -283,7 +295,7 @@
     width: 6vh;
 }
 .img-small{
-    width: 15vh;
+    width: 25vh;
 }
 .img-medium{
     width: 45vh;
@@ -304,6 +316,11 @@
     width: 100%;
     padding: 55px 0px;
 }
+.abs-medium{
+    position: absolute;
+    bottom: 30px;
+    z-index: 99;
+}
 /* Shapes */
 .contact-shape{
     width: 100%;
@@ -313,6 +330,22 @@
 .circle-large{
     width: 30vh;
     height: 30vh;
+    border-radius: 50%;
+    -webkit-box-shadow: var(--bottom-shadow);
+            box-shadow: var(--bottom-shadow);
+    overflow: hidden;
+}
+.circle-medium{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    -webkit-box-shadow: var(--bottom-shadow);
+            box-shadow: var(--bottom-shadow);
+    overflow: hidden;
+}
+.circle-small{
+    width: 20vh;
+    height: 20vh;
     border-radius: 50%;
     -webkit-box-shadow: var(--bottom-shadow);
             box-shadow: var(--bottom-shadow);
