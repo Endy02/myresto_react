@@ -1,0 +1,37 @@
+.contact-form{
+    width: 70%
+}
+.contact-form-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    padding: 10px 8px;
+    box-shadow: var(--bottom-shadow);
+} 
+.input-medium{
+    width: 25vh;
+    font-family: 'Roboto Bold';
+    font-size: var(--large-text);
+}
+.input-large{
+    width: 45vh;
+    font-family: 'Roboto Bold';
+    font-size: var(--medium-text);
+}
+.input-text{
+    border-radius: 10px;
+}
+.input-textarea{
+    border-radius: 10px;
+} 
+.input-orange{
+    color: var(--cream-orange);
+}
