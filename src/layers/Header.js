@@ -142,7 +142,7 @@ const Header = () => {
                                       <p className='medium-text bold-text'>Commander</p>
                                   </NavLink>
                               </li>
-                          ) : null}
+                           ) : null}
                       </ul>
                       <div className='nav-content-footer'>
                           <div className='nav-content-footer-tools'>

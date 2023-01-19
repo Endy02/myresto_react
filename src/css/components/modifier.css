@@ -201,8 +201,8 @@
 .bg-shade{
     background-color: var(--dark-white);
 }
-.bg-icon-pink{
-    fill: var(--sweat-pink);
+.bg-icon-orange{
+    fill: var(--cream-orange);
 }
 .bg-icon-green{
     fill: var(--cute-green);
@@ -279,8 +279,14 @@
 .icon-medium{
     width: 6.5vh;
 }
+.img-x-small{
+    width: 6vh;
+}
+.img-small{
+    width: 15vh;
+}
 .img-medium{
-    width: 35vh;
+    width: 45vh;
 }
 .img-large{
     width: 80vh;
