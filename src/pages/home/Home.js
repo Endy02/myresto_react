@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 // import { useLocation, useNavigate } from 'react-router'
 import Banner from '../home/Banner'
+import Contact from '../home/Contact'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -77,6 +78,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className='separator'></div>
+                <Contact />
             </motion.div>
         </>
     )
