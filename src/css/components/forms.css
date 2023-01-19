@@ -35,3 +35,8 @@
 .input-orange{
     color: var(--cream-orange);
 }
+.input-border-orange{
+    color: var(--lazy-grey);
+    border: 3px solid var(--cream-orange);
+    padding: 10px 50px;
+}

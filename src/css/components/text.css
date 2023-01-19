@@ -37,6 +37,9 @@
 .violet-text{
     color: var(--sweat-violet);
 }
+.grey-text{
+    color: var(--dark-grey);
+}
 .black-text{
     color: var(--lazy-grey);
     -webkit-transition: all .2s ease-in;

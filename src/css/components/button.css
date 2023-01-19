@@ -139,7 +139,7 @@
     transition: all .2s ease-in;
 }
 .link-cream{
-    color: var(--fun-brown);
+    color: var(--cream-orange);
     transition: all .2s ease-out;
 }
 .link-cream:hover,
