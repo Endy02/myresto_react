@@ -18,6 +18,15 @@
     width: 100%;
     min-height: 30vh;
 }
+.container-first{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 150;
+    top: 0;
+    left: 0;
+    background-color: var(--regular-white);
+}
 .back-container{
     position: absolute;
     left: 0;
