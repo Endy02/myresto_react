@@ -298,7 +298,7 @@
     width: 25vh;
 }
 .img-medium{
-    width: 45vh;
+    width: 30vh;
 }
 .img-large{
     width: 80vh;
@@ -483,6 +483,9 @@
     .mobile-d-none{
         display: none;
     }
+    .mobile-top-pad{
+        padding-top: 80px;
+    }
     .contact-shape{
         width: 100%;
         position: absolute;
@@ -495,5 +498,18 @@
     }
     .img-large{
         width: 35vh;    
+    }
+    .abs-medium{
+        position: relative;
+        bottom: 0px;
+        z-index: 99;
+    }
+    .circle-small{
+        width: 15vh;
+        height: 15vh;
+        border-radius: 50%;
+        -webkit-box-shadow: var(--bottom-shadow);
+                box-shadow: var(--bottom-shadow);
+        overflow: hidden;
     }
 }
