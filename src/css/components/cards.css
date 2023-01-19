@@ -97,6 +97,32 @@
 .d-card-content{
     width: 100%;
 }
+.cart-selection{
+    max-width: 90vh;
+    cursor: grab;
+    padding: 30px;
+    overflow: hidden;
+    border: 4px dotted var(--lazy-grey);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.inner-selection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.c-card{
+    position: relative;
+    width: 20vh;
+    height: 17vh;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.c-card img{
+    pointer-events: none;
+}
+
 @media screen and (max-width: 960px) {
     .card-wrapper{
         position: relative;

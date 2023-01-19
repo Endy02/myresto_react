@@ -9,6 +9,7 @@ import Header from '../layers/Header'
 import Footer from '../layers/Footer'
 import Menu from '../pages/menu/Menu'
 import { AnimatePresence } from 'framer-motion'
+import Order from '../pages/orders/Order'
 
 
 const AnimatedRoutes = () => {
@@ -20,7 +21,7 @@ const AnimatedRoutes = () => {
             <Routes location={location} key={location.pathname}>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/menu" element={<Menu />} />
-                <Route exact path="/commande" element="" />
+                <Route exact path="/commande" element={<Order />} />
                 <Route exact path="/login" element={<Login />} />
                 <Route exact path="/logout" element={<Logout />} />
                 <Route exact path="/register" element={<Register />} />

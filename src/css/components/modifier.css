@@ -351,6 +351,14 @@
             box-shadow: var(--bottom-shadow);
     overflow: hidden;
 }
+.circle-x-small{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+    -webkit-box-shadow: var(--bottom-shadow);
+            box-shadow: var(--bottom-shadow);
+    overflow: hidden;
+}
 .rectangle-img-l{
     width: 100%;
     height: 30vh;
