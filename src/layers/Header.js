@@ -121,19 +121,9 @@ const Header = () => {
                                   <p className='medium-text bold-text'>Menu</p>
                               </NavLink>
                           </li>
-                          <li className="nav-item">
-                              <NavLink to='/contact' activeclassname="active" className="nav-link" onClick={closeMobileMenu}>
-                                  <div className='nav-link-icon'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                      <path d="M96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM208 288h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H144c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm96-96c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"/>
-                                    </svg>
-                                  </div>
-                                  <p className='medium-text bold-text'>Contact</p>
-                              </NavLink>
-                          </li>
-                          {localStorage.getItem('access_token') ? (
+                          {/* {localStorage.getItem('user') ? ( */}
                               <li className="nav-item">
-                                  <NavLink to='/predictions' activeclassname="active" className="nav-link" onClick={closeMobileMenu}>
+                                  <NavLink to='/commande' activeclassname="active" className="nav-link" onClick={closeMobileMenu}>
                                       <div className='nav-link-icon'>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                           <path d="M61.1 224C45 224 32 211 32 194.9c0-1.9 .2-3.7 .6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9 .6 3.7 .6 5.6c0 16.1-13 29.1-29.1 29.1H61.1zM144 128c0-8.8-7.2-16-16-16s-16 7.2-16 16s7.2 16 16 16s16-7.2 16-16zm240 16c8.8 0 16-7.2 16-16s-7.2-16-16-16s-16 7.2-16 16s7.2 16 16 16zM272 96c0-8.8-7.2-16-16-16s-16 7.2-16 16s7.2 16 16 16s16-7.2 16-16zM16 304c0-26.5 21.5-48 48-48H448c26.5 0 48 21.5 48 48s-21.5 48-48 48H64c-26.5 0-48-21.5-48-48zm16 96c0-8.8 7.2-16 16-16H464c8.8 0 16 7.2 16 16v16c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V400z"/>
@@ -142,7 +132,7 @@ const Header = () => {
                                       <p className='medium-text bold-text'>Commander</p>
                                   </NavLink>
                               </li>
-                          ) : null}
+                           {/* ) : null} */}
                       </ul>
                       <div className='nav-content-footer'>
                           <div className='nav-content-footer-tools'>
@@ -155,7 +145,7 @@ const Header = () => {
                       </div>
                   </div>
               </div>
-              <div className='nav-extra'><Link to='/commande' className='btn btn-medium btn-bordered btn-current'>Profile</Link></div>
+              <div className='nav-extra'><Link to='/login' className='btn btn-medium btn-bordered btn-current'>login</Link></div>
               <div className="nav-icon" onClick={handleClick}>
                   {click ? <FontAwesomeIcon icon={faTimes}/> : <FontAwesomeIcon icon={faBars}/>}
               </div>
