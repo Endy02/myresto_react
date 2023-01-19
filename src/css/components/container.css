@@ -329,4 +329,7 @@
         align-items: center;
 
     }
+    .gutter-space{
+        padding: 0px 15px;
+    }
 }
