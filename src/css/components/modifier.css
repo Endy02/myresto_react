@@ -280,7 +280,7 @@
     width: 6.5vh;
 }
 .img-medium{
-    width: 25vh;
+    width: 35vh;
 }
 .img-large{
     width: 80vh;
@@ -443,5 +443,18 @@
 @media screen and (max-width:768px){
     .mobile-d-none{
         display: none;
+    }
+    .contact-shape{
+        width: 100%;
+        position: absolute;
+        top: -30px;
+    }
+    .separator{
+        width: 100%;
+        height: 10vh;
+        background-color: transparent;
+    }
+    .img-large{
+        width: 35vh;    
     }
 }

@@ -19,7 +19,7 @@ const Contact = () => {
                 <div className='gutter-space'>
                     <div className='grid-2'>
                         <div className='grid-item'>
-                            <div className='flex-col-start full-width'>
+                            <div className='flex-col- full-width'>
                                 <form className='contact-form' onSubmit={handleSubmit}>
                                     <div className='contact-form-item'>
                                         <h2 className='big-text bold-text white-text pad-b-xl'>Nous contacter</h2>
