@@ -2,14 +2,13 @@ import React from 'react'
 
 const Contact = () => {
 
-
     const handleSubmit = (e) => {
         // TODO : Handle form data
     }
 
     return (
         <>
-            <div className='container bg-orange'>
+            <div className='container bg-orange' id='contact'>
                 <div className='contact-shape'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 251.386">
                         <path id="Shape" d="M0-75.918s144.095,124.661,528.347,94.1S1229.1-116.248,1515.664-116.248C1790.511-120.729,1920-18.663,1920-18.663V134.994H0Z" transform="translate(0 116.392)" fill="#f2af5e"/>

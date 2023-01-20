@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import BannerMenu from './BannerMenu'
 import { motion } from 'framer-motion'
 
@@ -9,6 +9,9 @@ const Menu = () => {
   const handleClick = () =>{
     setClick(!click);
   }
+  useEffect(() => {
+    document.title = "Menu" // Set the title of the page
+  }, [])
 
   const ProdcutModal = () => {
     return(

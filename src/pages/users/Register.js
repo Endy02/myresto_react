@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Navigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 // import axiosProvider from '../../core/axios';
 import { motion } from 'framer-motion'
 
@@ -163,7 +163,7 @@ const Register = () => {
                                     <button type='submit' className='btn btn-bordered btn-large btn-swift'>Inscription</button> 
                                 </div>
                             </form>
-
+                            <Link to="/login" className='link link-medium link-cream'> Vous avez déjà un compte ?</Link>
                             <div className='abs-t-l'>
                                 <p className='grey-text bold-text large-text '>Inscription</p>
                             </div>

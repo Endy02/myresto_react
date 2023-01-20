@@ -2,7 +2,11 @@ import React from 'react'
 
 const AdmProfile = () => {
   return (
-    <div>AdmProfile</div>
+    <>
+      <div className='admin-container'>
+        <Sidebar />
+      </div>
+    </>
   )
 }
 

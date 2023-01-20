@@ -10,6 +10,9 @@ import Footer from '../layers/Footer'
 import Menu from '../pages/menu/Menu'
 import { AnimatePresence } from 'framer-motion'
 import Order from '../pages/orders/Order'
+import Dashboard from '../pages/admin/Dashboard'
+import AdmOrders from '../pages/admin/AdmOrders'
+import Clients from '../pages/admin/Clients'
 
 
 const AnimatedRoutes = () => {
@@ -27,9 +30,10 @@ const AnimatedRoutes = () => {
                 <Route exact path="/register" element={<Register />} />
                 <Route exact path="/profile" element={<Profile />} />
                 <Route exact path="/recap" element="" />
-                <Route exact path="/administrateur" element="" />
-                <Route exact path="/administrateur/clients" element="" />
-                <Route exact path="/administrateur/comandes" element="" />
+                <Route exact path="/dashboard" element={<Dashboard />} />
+                <Route exact path="/administrateur/clients" element={<Clients />} />
+                <Route exact path="/administrateur/commandes" element={<AdmOrders />} />
+                <Route exact path="/administrateur/profile" element="" />
             </Routes>
             <Footer />
         </AnimatePresence>

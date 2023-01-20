@@ -7,6 +7,15 @@
     width: 100%;
     min-height: 100vh;
 }
+.admin-container{
+    width: 100%;
+    position: absolute;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: #FBFBFB;
+}
 .container-a{
     width: 100%;
     min-height: 100vh;

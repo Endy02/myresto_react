@@ -174,11 +174,12 @@
     transition: all .2s ease-in;
 }
 .icon-link-great{
-    fill: var(--sweat-pink);
+    fill: var(--cream-orange);
     transition: all .2s ease-out;
 }
-.icon-link-great:hover{
-    fill: var(--fun-brown);
+.icon-link-great:hover,
+.icon-link-great:focus{
+    fill: var(--fun-blue);
     transition: all .2s ease-in;
 }
 .back-link{

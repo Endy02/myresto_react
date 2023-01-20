@@ -33,7 +33,7 @@ const Home = () => {
                                     <div className='flex-col mid-container'>
                                         <h2 className='large-text bold-text violet-text pad-b-m'>Que proposons-nous ?</h2>
                                         <p className='medium-text regular-text black-text pad-b-l'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dapibus nibh. Fusce blandit lorem quis mattis ullamcorper. Vivamus maximus convallis aliquet. Pellentesque non aliquam dolor, nec efficitur velit. Vestibulum ac hendrerit sapien, vulputate ultricies nibh. Curabitur ut nisi euismod, tristique leo sit amet, convallis justo.</p>
-                                        <Link className='btn btn-bordered btn-medium btn-swift' to='/'>Consulter le menu</Link>
+                                        <Link className='btn btn-bordered btn-medium btn-swift' to='/menu'>Consulter le menu</Link>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ const Home = () => {
                                     <div className='flex-col mid-container'>
                                         <h2 className='large-text bold-text sand-text pad-b-m'>Qui sommes-nous ?</h2>
                                         <p className='medium-text regular-text black-text pad-b-l'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dapibus nibh. Fusce blandit lorem quis mattis ullamcorper. Vivamus maximus convallis aliquet. Pellentesque non aliquam dolor, nec efficitur velit. Vestibulum ac hendrerit sapien, vulputate ultricies nibh. Curabitur ut nisi euismod, tristique leo sit amet, convallis justo.</p>
-                                        <Link className='btn btn-bordered btn-medium btn-cream' to='/'>Contacter-nous</Link>
+                                        <a className='btn btn-bordered btn-medium btn-cream' href='#contact'>Contacter-nous</a>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ const Home = () => {
                                     <div className='flex-col mid-container'>
                                         <h2 className='large-text bold-text red-text pad-b-m'>Où nous trouver ?</h2>
                                         <p className='medium-text regular-text black-text pad-b-l'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae dapibus nibh. Fusce blandit lorem quis mattis ullamcorper. Vivamus maximus convallis aliquet. Pellentesque non aliquam dolor, nec efficitur velit. Vestibulum ac hendrerit sapien, vulputate ultricies nibh. Curabitur ut nisi euismod, tristique leo sit amet, convallis justo.</p>
-                                        <Link className='btn btn-bordered btn-medium btn-danger' to='/'>Passer commande</Link>
+                                        <Link className='btn btn-bordered btn-medium btn-danger' to='/commande'>Passer commande</Link>
                                     </div>
                                 </div>
                             </div>

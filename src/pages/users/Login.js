@@ -2,6 +2,7 @@ import React from 'react'
 // import { Link, Navigate, useNavigate, useLocation } from 'react-router-dom';
 // import axiosProvider from '../../core/axios';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 // const LOGIN_URL = 'user/login/';
 
@@ -142,11 +143,10 @@ const Login = () => {
                                     <button type='submit' className='btn btn-bordered btn-large btn-swift'>Connexion</button> 
                                 </div>
                             </form>
-                            <a className='link link-medium link-cream'> Mot de passe oublié</a>
+                            <Link to="/register" className='link link-medium link-cream'> Vous n'avez pas de compte ?</Link>
                             <div className='abs-t-l'>
                                 <p className='grey-text bold-text large-text '>Connexion</p>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
